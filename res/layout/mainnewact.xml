@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainnewact"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<Button
+	 android:id="@+id/disconnectNEW"
+	 android:layout_width="fill_parent"
+	 android:layout_height="wrap_content"
+	 android:enabled="true"
+	 android:text="Disconnect" />
+
+	<TextView
+	 android:id="@+id/speed"
+	 android:layout_width="fill_parent"
+	 android:layout_height="wrap_content" 
+	 android:textColor="#ffffff" 
+	 android:text="Speed" />	
+	<SeekBar android:id="@+id/speedbar"
+	 android:layout_width="wrap_content"
+	 android:layout_height="wrap_content"
+	 android:enabled="true"
+	 android:max="100"
+	 android:minWidth="420px"  />
+	<TextView
+	 android:id="@+id/dir"
+	 android:layout_width="fill_parent"
+	 android:layout_height="wrap_content" 
+	 android:textColor="#ffffff" 
+	 android:text="Turn" />
+	<SeekBar android:id="@+id/dirbar"
+	 android:layout_width="wrap_content"
+	 android:layout_height="wrap_content"
+	 android:enabled="true"
+	 android:max="100"
+	 android:minWidth="420px"  />	
+
+</LinearLayout>
